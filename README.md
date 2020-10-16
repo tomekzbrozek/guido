@@ -2,6 +2,7 @@
 
 Python CLI tool to compare files in two local directories, ignoring file extensions.
 
+```
 _                ___       _.--.
 \`.|\..----...-'`   `-._.-'_.-'`
 /  ' `         ,       __.--'
@@ -9,7 +10,7 @@ _                ___       _.--.
 `-'" `"\_  ,_.-;_.-\_ ',     fsc/as
     _.-'_./   {_.'   ; /
    {_.-``-'         {_/
-
+```
 
 # how to use
 
