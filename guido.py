@@ -20,7 +20,7 @@ def main():
         base_path_files = os.listdir(base_path)
         lookup_path_files = os.listdir(lookup_path)
 
-        print('\033[92m' + '\033[1m' + f"Files from {base_path} that don't exist under {lookup_path}" + '\033[0m')
+        print('\033[92m' + '\033[1m' + f"Files in {base_path} that are not in {lookup_path}" + '\033[0m')
         for filename in strip_filenames(base_path_files):
             if filename not in strip_filenames(lookup_path_files):
                 print(f"    {filename}")
