@@ -1,6 +1,6 @@
 # Guido
 
-Python CLI tool to compare files in two local directorirs, ignoring file extensions.
+Python CLI tool to compare files in two local directories, ignoring file extensions.
 
 ```
 _                ___       _.--.
@@ -48,7 +48,7 @@ folder/2
     riff-raff.txt
 ```
 
-Guido will return results that look like:
+Guido will return the following results:
 
 ```
 Files in /Users/tomaszzbrozek/folder1 that are not in /Users/tomaszzbrozek/folder2
